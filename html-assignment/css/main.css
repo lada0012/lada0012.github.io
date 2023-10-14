@@ -1,0 +1,49 @@
+/* inheritance */
+body {
+    font-size: 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/* multiple elements */
+body h1, article h1, aside h3, main h2, footer{
+    background-color: rgb(165, 220, 237);
+}
+
+/* class selector */
+.site-title{
+    color: rgb(43, 43, 226);
+}
+
+/* id selector */
+#my-image{
+    box-shadow: 0 0 2px 1px #000; 
+}
+
+/* replace bullets with square*/
+ul{
+    list-style-type: square;
+}
+
+/* nth child selector */
+aside ul li:nth-child(odd){
+    background-color: rgb(105, 149, 221);
+}
+
+/* remove underline from links */
+nav {
+    list-style-type: none;
+}
+
+/* styling navigatoion */
+a {
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 1px solid #00999c;
+    padding: 5px 10px;
+    color: rgb(43, 43, 226);
+}
+
+nav :hover,
+nav :focus{
+    background-color: plum;
+}
+
